@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const User = require('./models/user');
 const app = express()
-const PORT = process.env.PORT | 3000
+const PORT = process.env.PORT
 const IP = '0.0.0.0'
 const sendMail = require('./send-mail');
 const DBURL = 'mongodb+srv://ElTorpedo:HelloWorld1@cluster0-sndxq.mongodb.net/test?retryWrites=true&w=majority'
