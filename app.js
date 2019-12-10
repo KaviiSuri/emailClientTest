@@ -33,6 +33,6 @@ app.get('/finalpage', (req, res) => {
     res.send("Check your mail for tickets")
 })
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log('Server running on port:' + PORT)
 })
