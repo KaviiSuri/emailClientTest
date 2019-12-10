@@ -10,7 +10,7 @@ module.exports = function(User) {
 
         from: {
             name: 'TEST',
-            email: 'likhawat.page@gmail.com'
+            email: 'surikavii@gmail.com'
         },
         subject: 'The subject of your email',
         substitution: {
